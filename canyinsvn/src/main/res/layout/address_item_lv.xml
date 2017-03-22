@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:orientation="vertical"
+        android:padding="30px">
+
+        <TextView
+            android:id="@+id/nameandphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#151515"
+            android:textSize="28px" />
+
+        <TextView
+            android:id="@+id/shen_city_region_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_marginTop="30px"
+            android:textColor="#151515"
+            android:textSize="28px" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/delete"
+                android:layout_width="140px"
+                android:layout_alignParentBottom="true"
+                android:layout_height="60px"
+                android:text="@string/delete"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:background="@drawable/border_1_0_black"
+                android:textColor="#151515"
+                android:textSize="28px" />
+
+            <TextView
+                android:id="@+id/updata"
+                android:layout_width="140px"
+                android:layout_height="60px"
+                android:text="@string/updata"
+                android:layout_toLeftOf="@+id/delete"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="30px"
+                android:background="@drawable/border_1_0_black"
+                android:textColor="#151515"
+                android:textSize="28px" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#f3f3f3" />
+
+</LinearLayout>

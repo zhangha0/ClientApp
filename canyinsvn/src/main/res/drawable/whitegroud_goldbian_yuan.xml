@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 借助shape元素绘制一些图形 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 绘制图形的颜色 -->
+    <solid android:color="#ffffff"/>
+    <!-- 绘制边角弧度 -->
+    <corners android:radius="5px"/>
+    <!-- 描边 -->
+    <stroke android:color="#000"
+            android:width="1px"/>
+    <!-- 设定内边距 -->
+    <padding android:left="0px"
+     android:right="0px" />
+</shape>

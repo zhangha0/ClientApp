@@ -1,0 +1,258 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/show_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="90px"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e0e0e0"></RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:layout_gravity="bottom"
+        android:background="#fff">
+
+        <LinearLayout
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/radiol1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:onClick="onClick">
+
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/radio1"
+                        android:layout_width="41px"
+                        android:layout_height="41px"
+                        android:src="@mipmap/daohang1"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:text="@string/daohang1"
+                        android:textColor="#f00"
+                        android:textSize="20px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/radio2"
+                        android:layout_width="41px"
+                        android:layout_height="41px"
+                        android:src="@mipmap/daohang5"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:text="@string/daohang1"
+                        android:textColor="#000"
+                        android:textSize="20px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/radiol2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:onClick="onClick">
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/radio3"
+                        android:layout_width="41px"
+                        android:layout_height="41px"
+                        android:src="@mipmap/daohang2"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:text="@string/daohang2"
+                        android:textColor="#f00"
+                        android:textSize="20px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/radio4"
+                        android:layout_width="41px"
+                        android:layout_height="41px"
+                        android:src="@mipmap/daohang6"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:text="@string/daohang2"
+                        android:textColor="#000"
+                        android:textSize="20px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/radiol3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:onClick="onClick">
+
+                <LinearLayout
+                    android:id="@+id/layout5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/radio5"
+                        android:layout_width="41px"
+                        android:layout_height="41px"
+                        android:src="@mipmap/daohang3"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:text="@string/daohang3"
+                        android:textColor="#f00"
+                        android:textSize="20px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/radio6"
+                        android:layout_width="41px"
+                        android:layout_height="41px"
+                        android:src="@mipmap/daohang7"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:text="@string/daohang3"
+                        android:textColor="#000"
+                        android:textSize="20px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/radiol4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:onClick="onClick">
+
+                <LinearLayout
+                    android:id="@+id/layout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/radio7"
+                        android:layout_width="41px"
+                        android:layout_height="41px"
+                        android:src="@mipmap/daohang4"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:text="@string/daohang4"
+                        android:textColor="#f00"
+                        android:textSize="20px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:id="@+id/radio8"
+                        android:layout_width="41px"
+                        android:layout_height="41px"
+                        android:src="@mipmap/daohang8"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:text="@string/daohang4"
+                        android:textColor="#000"
+                        android:textSize="20px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

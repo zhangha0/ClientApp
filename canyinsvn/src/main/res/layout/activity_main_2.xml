@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.cd.wzjkj.canyi.view.MyHoveringScrollView
+        android:id="@+id/view_hover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/id_content1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90px"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/city"
+                        android:layout_width="60px"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20px"
+                        android:gravity="center"
+                        android:text="@string/city_seach"
+                        android:textColor="#151515"
+                        android:textSize="24px"></TextView>
+
+
+                    <FrameLayout
+                        android:id="@+id/framelayout"
+                        android:layout_width="460px"
+                        android:layout_height="60px"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="34px"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#f3f3f3" />
+
+                        <ImageView
+                            android:id="@+id/seach_iv"
+                            android:layout_width="24px"
+                            android:layout_height="25px"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20px"
+                            android:src="@mipmap/hui_seach" />
+
+                        <ImageView
+                            android:layout_width="2px"
+                            android:layout_height="32px"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="60px"
+                            android:background="@mipmap/shu2px" />
+
+                        <TextView
+                            android:id="@+id/seach_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="64px"
+                            android:background="@null"
+                            android:gravity="center_vertical"
+                            android:hint="@string/seach"
+                            android:textSize="24px" />
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/shaoyishao"
+                        android:layout_width="48px"
+                        android:layout_height="48px"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="76px"
+                        android:src="@mipmap/saoyisao" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="#f3f3f3"
+                    android:layout_height="1px"/>
+            </LinearLayout>
+
+            <com.cd.wzjkj.canyi.view.SelfGridView
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20px"
+                android:background="#ababab" />
+
+            <FrameLayout
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/class_sort" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textSize="24px"
+                    android:paddingLeft="20px"
+                    android:text="@string/addressthis" />
+                <ImageView
+                    android:id="@+id/refershiv"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/refershiv"
+                    android:layout_width="30px"
+                    android:layout_marginRight="30px"
+                    android:layout_height="30px" />
+            </LinearLayout>
+
+            <com.cd.wzjkj.canyi.view.SelfListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:listSelector="#00ffffff" />
+        </LinearLayout>
+    </com.cd.wzjkj.canyi.view.MyHoveringScrollView>
+
+</RelativeLayout>

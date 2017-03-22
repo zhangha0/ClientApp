@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cd.wzjkj.canyi">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".tools.Until3"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.DianJai_TuanGuoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DianJai_WaiMaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DianJai_DianCanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TuanGuoXXActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WaiMaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ShouChangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UpdataAddress_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Input_CommentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PayOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ToLogoOrZhucheActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LogoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ZhucheActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OrderWaiMaiActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="design_width"
+            android:value="750"></meta-data>
+        <meta-data
+            android:name="design_height"
+            android:value="1334"></meta-data>
+
+        <activity android:name=".activity.SearchActivity"></activity>
+    </application>
+
+</manifest>

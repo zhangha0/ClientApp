@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="750px"
+        android:layout_height="160px"
+        android:id="@+id/et1"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="提示11111"/>
+    <Button
+        android:id="@+id/btn1"
+        android:background="#00ff00"
+        android:layout_width="700px"
+        android:layout_height="160px"
+        android:text="按我"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:gravity="center"
+        android:layout_width="800px"
+        android:background="#0000ff"
+        android:layout_height="160px" />
+</LinearLayout>

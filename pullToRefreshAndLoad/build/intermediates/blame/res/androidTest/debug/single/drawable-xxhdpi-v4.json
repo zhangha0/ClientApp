@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    }
+]

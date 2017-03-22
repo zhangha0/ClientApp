@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.cd.wzjkj.canyi.view.MyHoveringScrollView
+        android:id="@+id/view_hover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="100px"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/icon_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="380px"
+                    android:scaleType="fitXY" />
+
+                <RelativeLayout
+                    android:id="@+id/remove_dian2"
+                    android:layout_width="match_parent"
+                    android:layout_height="290px"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="30px" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="120px"
+                    android:layout_height="120px"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/gonggao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_marginBottom="20px"
+                    android:textSize="28px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80px"
+                    android:gravity="center_vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/back"
+                        android:layout_width="80px"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="20px"
+                            android:layout_height="35px"
+                            android:background="@mipmap/back" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/title_tuanguo"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center" />
+
+                    <RelativeLayout
+                        android:id="@+id/shouchang"
+                        android:layout_width="80px"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40px"
+                            android:layout_height="40px"
+                            android:background="@mipmap/good" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/remove_dian"
+                android:layout_width="match_parent"
+                android:layout_height="160px"
+                android:background="#f3f3f3"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:layout_width="405px"
+                    android:layout_height="70px"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="20px"
+                    android:background="@drawable/border_radio_half"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r2b1"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/waishong"
+                        android:textColor="@color/color_radiobutton1" />
+
+                    <RelativeLayout
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"
+                        android:background="#f3f3f3" />
+
+                    <RadioButton
+                        android:id="@+id/r2b2"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/ziqu"
+                        android:textColor="@color/color_radiobutton1" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="90px">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:background="#ffffff"
+                    android:layout_height="90px"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb1"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="@string/dangping"
+                        android:textColor="@color/color_radiobutton" />
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="@string/taocan"
+                        android:textColor="@color/color_radiobutton" />
+
+                    <RadioButton
+                        android:id="@+id/rb3"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="@string/xiangqing"
+                        android:textColor="@color/color_radiobutton" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#f3f3f3" />
+
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.cd.wzjkj.canyi.view.SelfListView
+                    android:id="@+id/listview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:listSelector="#00ffffff" />
+            </LinearLayout>
+
+            <include layout="@layout/waimai_context2" />
+
+            <include layout="@layout/waimai_context3" />
+        </LinearLayout>
+    </com.cd.wzjkj.canyi.view.MyHoveringScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="160px"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/price_all"
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                android:gravity="center_vertical"
+                android:textColor="#ff0000"
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/emsmoney"
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                android:gravity="center_vertical"
+                android:textSize="24px" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/btn_topay"
+            android:layout_width="260px"
+            android:layout_height="match_parent"
+            android:background="#ffa51d"
+            android:gravity="center"
+            android:text="@string/jieshuan"
+            android:textColor="#ffffff"
+            android:textSize="36px" />
+    </LinearLayout>
+
+
+</FrameLayout>

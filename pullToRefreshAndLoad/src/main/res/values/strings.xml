@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="refresh_succeed">RefreshSucceed</string>
+    <string name="last_refresh_time">LastRefreshTime</string>
+    <string name="refresh_fail">RefreshFail</string>
+    <string name="load_succeed">LoadSucced</string>
+    <string name="load_fail">LoadFail</string>
+    <string name="once_tonext">Once_tonext</string>
+    <string name="pulldown_to_refresh">PulldownToRefresh</string>
+    <string name="pullup_to_loadmore">PullupToLoadmore</string>
+    <string name="release_to_refresh">ReleaseToRefresh</string>
+    <string name="release_to_loadmore">ReleaseToLoadmore</string>
+    <string name="loadmoreing">Loadmoreing</string>
+    <string name="refreshing">Refreshing</string>
+
+</resources>

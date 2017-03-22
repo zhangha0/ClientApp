@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/page_layout"
+            android:layout_width="match_parent"
+            android:layout_height="260px">
+
+            <com.cd.wzjkj.canyi.view.AutoPage
+                android:id="@+id/autoPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></com.cd.wzjkj.canyi.view.AutoPage>
+
+            <com.cd.wzjkj.canyi.view.CircleAutoView
+                android:id="@+id/circle"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:alpha="0.5"
+                android:background="#0e0e0e" />
+        </RelativeLayout>
+
+        <com.cd.wzjkj.canyi.view.SelfGridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="260px"
+            android:background="#fff"
+            android:numColumns="4" />
+    </LinearLayout>
+</LinearLayout>

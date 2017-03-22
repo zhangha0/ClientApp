@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="30px"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:paddingTop="30px">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#151515"
+                android:textSize="30px" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/beizhu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:maxLines="2"
+                    android:textSize="26px" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/peiliaogv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180px"
+        android:layout_marginRight="80px"
+        android:numColumns="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:paddingRight="20px">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="0px"
+            android:textColor="#ff0000"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="180px"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20px">
+
+            <TextView
+                android:id="@+id/minustv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ciview"
+                android:gravity="center"
+                android:text="-"
+                android:textSize="42px" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="50px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="80px"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="42px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/plustv"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ciview2"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="42px" />
+            <RadioButton
+                android:id="@+id/rbchoose"
+                android:layout_width="48px"
+                android:layout_height="48px"
+                android:layout_centerInParent="true"
+                android:button="@null"
+                android:background="@drawable/radiobutton_tc"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:background="#f3f3f3"></RelativeLayout>
+
+</LinearLayout>

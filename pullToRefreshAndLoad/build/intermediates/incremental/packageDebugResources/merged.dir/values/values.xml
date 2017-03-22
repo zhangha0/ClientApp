@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="last_refresh_time">LastRefreshTime</string>
+    <string name="load_fail">LoadFail</string>
+    <string name="load_succeed">LoadSucced</string>
+    <string name="loadmoreing">Loadmoreing</string>
+    <string name="once_tonext">Once_tonext</string>
+    <string name="pulldown_to_refresh">PulldownToRefresh</string>
+    <string name="pullup_to_loadmore">PullupToLoadmore</string>
+    <string name="refresh_fail">RefreshFail</string>
+    <string name="refresh_succeed">RefreshSucceed</string>
+    <string name="refreshing">Refreshing</string>
+    <string name="release_to_loadmore">ReleaseToLoadmore</string>
+    <string name="release_to_refresh">ReleaseToRefresh</string>
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+</resources>

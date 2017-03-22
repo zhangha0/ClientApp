@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc0">#ff721c</color>
+    <color name="abc1">#ff0000</color>
+    <color name="abc2">#5ae5b9</color>
+    <color name="abc3">#55df3f</color>
+    <color name="abc4">#b5b5b5</color>
+    <color name="color_text_selected">#ff0000</color>
+    <color name="color_text_normal">#666666</color>
+</resources>

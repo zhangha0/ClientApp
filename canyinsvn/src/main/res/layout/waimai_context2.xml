@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="210px"
+            android:layout_height="70px"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20px"
+            android:background="@drawable/border_1_5_black">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_1_0_black">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/first_cai"
+                    android:textColor="#151515"
+                    android:textSize="34px" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <com.cd.wzjkj.canyi.view.SelfListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview_first"
+            android:divider="@null"
+            android:listSelector="#00ffffff" />
+        <FrameLayout
+            android:layout_width="210px"
+            android:layout_height="70px"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20px"
+            android:background="@drawable/border_1_5_black">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_1_0_black">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/second_cai"
+                    android:textColor="#151515"
+                    android:textSize="34px" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <com.cd.wzjkj.canyi.view.SelfListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview_second"
+            android:divider="@null"
+            android:listSelector="#00ffffff" />
+        <FrameLayout
+            android:layout_width="210px"
+            android:layout_height="70px"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20px"
+            android:background="@drawable/border_1_5_black">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_1_0_black">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/third_cai"
+                    android:textColor="#151515"
+                    android:textSize="34px" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <com.cd.wzjkj.canyi.view.SelfListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview_third"
+            android:divider="@null"
+            android:listSelector="#00ffffff" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10px"
+            android:text="@string/taocan_tianping"
+            android:textColor="#151515" />
+
+        <com.cd.wzjkj.canyi.view.SelfListView
+            android:id="@+id/listview_tianping"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:listSelector="#00ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10px"
+            android:text="@string/taocan_drink"
+            android:textColor="#151515" />
+
+        <com.cd.wzjkj.canyi.view.SelfListView
+            android:id="@+id/listview_drink"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:listSelector="#00ffffff" />
+
+        <TextView
+            android:id="@+id/btn_sure"
+            android:layout_width="200px"
+            android:layout_height="80px"
+            android:text="@string/sure"
+            android:textColor="#151515"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border_1_0_black"/>
+
+    </LinearLayout>
+</LinearLayout>

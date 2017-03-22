@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="190px"
+            android:layout_height="140px"
+            android:layout_margin="30px" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30px"
+            android:layout_marginTop="30px"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingRight="20px">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="#151515"
+                    android:textSize="30px" />
+
+                <TextView
+                    android:id="@+id/seld"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="#666666"
+                    android:textSize="24px" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50px">
+
+                <TextView
+                    android:id="@+id/price_red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="€229"
+                    android:textColor="#ff0000"
+                    android:textSize="24px" />
+
+                <TextView
+                    android:id="@+id/price_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20px"
+                    android:layout_toRightOf="@+id/price_red"
+                    android:text="€349"
+                    android:textColor="#ababab"
+                    android:textSize="24px" />
+
+                <TextView
+                    android:id="@+id/buy"
+                    android:layout_width="90px"
+                    android:layout_height="50px"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffa51d"
+                    android:gravity="center"
+                    android:text="@string/guomai"
+                    android:textColor="#ffffff"
+                    android:textSize="30px" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#f3f3f3" />
+</LinearLayout>

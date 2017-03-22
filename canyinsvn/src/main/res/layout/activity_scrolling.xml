@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="750px"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!--<android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="750px"
+        android:layout_height="350px"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/guanggao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ff654321" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="60px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:gravity="center"
+                    android:text="@string/city_seach"
+                    android:textColor="#ffffff"
+                    android:textSize="24px"></TextView>
+
+                <ImageView
+                    android:id="@+id/hui_xiala"
+                    android:layout_width="20px"
+                    android:layout_height="20px"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/hui_xiala" />
+
+                <FrameLayout
+                    android:id="@+id/framelayout"
+                    android:layout_width="460px"
+                    android:layout_height="60px"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="34px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/shouyieyuan" />
+
+                    <ImageView
+                        android:id="@+id/seach_iv"
+                        android:layout_width="30px"
+                        android:layout_height="30px"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20px"
+                        android:src="@mipmap/hui_seach" />
+
+                    <ImageView
+                        android:layout_width="2px"
+                        android:layout_height="32px"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="60px"
+                        android:background="@mipmap/shu2px" />
+
+                    <EditText
+                        android:id="@+id/seach_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="64px"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/seach"
+                        android:textSize="24px" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_scrolling" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</android.support.design.widget.CoordinatorLayout>

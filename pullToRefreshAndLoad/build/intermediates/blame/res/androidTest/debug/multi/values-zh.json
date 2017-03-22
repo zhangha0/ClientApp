@@ -1,0 +1,701 @@
+[
+    {
+        "outputFile": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 53,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 42,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 42,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 45,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 45,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 44,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 44,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 46,
+                    "endOffset": 285
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 46,
+                        "endOffset": 285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 290,
+                    "endColumn": 52,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 290,
+                        "endColumn": 52,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 343,
+                    "endColumn": 53,
+                    "endOffset": 392
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 53,
+                        "endOffset": 392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 397,
+                    "endColumn": 45,
+                    "endOffset": 438
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 397,
+                        "endColumn": 45,
+                        "endOffset": 438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 443,
+                    "endColumn": 48,
+                    "endOffset": 487
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 443,
+                        "endColumn": 48,
+                        "endOffset": 487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 492,
+                    "endColumn": 43,
+                    "endOffset": 531
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 492,
+                        "endColumn": 43,
+                        "endOffset": 531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 536,
+                    "endColumn": 54,
+                    "endOffset": 586
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 536,
+                        "endColumn": 54,
+                        "endOffset": 586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 591,
+                    "endColumn": 51,
+                    "endOffset": 638
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\ClientApp\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 591,
+                        "endColumn": 51,
+                        "endOffset": 638
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 53,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 42,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 42,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 45,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 45,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 44,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 44,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 46,
+                    "endOffset": 285
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 46,
+                        "endOffset": 285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 290,
+                    "endColumn": 52,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 290,
+                        "endColumn": 52,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 343,
+                    "endColumn": 53,
+                    "endOffset": 392
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 53,
+                        "endOffset": 392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 397,
+                    "endColumn": 45,
+                    "endOffset": 438
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 397,
+                        "endColumn": 45,
+                        "endOffset": 438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 443,
+                    "endColumn": 48,
+                    "endOffset": 487
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 443,
+                        "endColumn": 48,
+                        "endOffset": 487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 492,
+                    "endColumn": 43,
+                    "endOffset": 531
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 492,
+                        "endColumn": 43,
+                        "endOffset": 531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 536,
+                    "endColumn": 54,
+                    "endOffset": 586
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 536,
+                        "endColumn": 54,
+                        "endOffset": 586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 591,
+                    "endColumn": 51,
+                    "endOffset": 638
+                },
+                "from": {
+                    "file": "D:\\android\\AndroidStudioProjects\\WorkApplication\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 591,
+                        "endColumn": 51,
+                        "endOffset": 638
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 53,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 109,
+                    "endColumn": 42,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 42,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 45,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 45,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 44,
+                    "endOffset": 238
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 44,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 243,
+                    "endColumn": 46,
+                    "endOffset": 285
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 46,
+                        "endOffset": 285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 290,
+                    "endColumn": 52,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 290,
+                        "endColumn": 52,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 343,
+                    "endColumn": 53,
+                    "endOffset": 392
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 53,
+                        "endOffset": 392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 397,
+                    "endColumn": 45,
+                    "endOffset": 438
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 397,
+                        "endColumn": 45,
+                        "endOffset": 438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 443,
+                    "endColumn": 48,
+                    "endOffset": 487
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 443,
+                        "endColumn": 48,
+                        "endOffset": 487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 492,
+                    "endColumn": 43,
+                    "endOffset": 531
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 492,
+                        "endColumn": 43,
+                        "endOffset": 531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 536,
+                    "endColumn": 54,
+                    "endOffset": 586
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 536,
+                        "endColumn": 54,
+                        "endOffset": 586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 591,
+                    "endColumn": 51,
+                    "endOffset": 638
+                },
+                "from": {
+                    "file": "F:\\E\\AndroidStudioProjects\\canyinsvn\\pullToRefreshAndLoad\\build\\intermediates\\bundles\\debug\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 591,
+                        "endColumn": 51,
+                        "endOffset": 638
+                    }
+                }
+            }
+        ]
+    }
+]
